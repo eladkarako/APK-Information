@@ -1,0 +1,96 @@
+html, body {
+    font-family: monospace;
+    background-color: rgba(144, 175, 127, .6);
+}
+
+li:nth-child(3n+0) {
+    background-color: rgba(194, 217, 181, .7) !important;
+}
+
+li:nth-child(3n+1) {
+    background-color: rgba(185, 209, 172, .7) !important;
+}
+
+li:nth-child(3n+2) {
+    background-color: rgba(151, 182, 135, .7) !important;
+}
+
+* {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+    /* --- fix top layer <li> .ui-listview of jQuery Mobile --- */
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    /* --- ------------------------------------------------ --- */
+
+}
+
+.category {
+    margin-left: 20px;
+}
+
+.permissions {
+    padding-bottom: 10px;
+}
+
+.permissions .name {
+    display: block;
+    margin-left: 20px;
+}
+
+.description {
+    margin-left: 40px;
+    color: rgba(77, 95, 139, .6);
+    white-space: normal; /* fix top layer <li> .ui-listview of jQuery Mobile */
+}
+
+.image_container .found_at {
+    color: rgba(77, 95, 139, .6);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(255, 255, 215, .2);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+tr.head {
+    background-color: rgba(255, 255, 215, 0);
+}
+
+a.downloadlink {
+    font-size: large;
+    letter-spacing: .5pt;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+a.downloadlink:link, a.downloadlink:visited, a.downloadlink:hover, a.downloadlink:active {
+    text-decoration: none;
+}
+
+a.downloadlink:hover {
+    background-color: rgba(90, 255, 95, .3);
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.package_logo {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .4);
+    margin-top: 10px;
+    margin-left: 5px;
+}
